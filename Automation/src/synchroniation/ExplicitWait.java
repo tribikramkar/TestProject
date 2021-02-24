@@ -30,6 +30,8 @@ public class ExplicitWait {
 		//wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@id='container_tasks']")));
 	//	WebElement el=driver.findElement(By.xpath("//a[@class='content selected tasks']"));
 	//	wait.until(ExpectedConditions.elementToBeClickable(el));
+		
+		
 		driver.findElement(By.xpath("//div[@id='container_tasks']")).click();
 	}
 

@@ -13,7 +13,9 @@ public class GetAttribute {
 		WebDriver driver=new FirefoxDriver();
 		driver.get("https://facebook.com");
 		WebElement un=driver.findElement(By.xpath("//input[@type='text']"));
-		System.out.println(un.getAttribute("id"));
+		un.sendKeys("bikram");
+		System.out.println(un.getAttribute("value"));
+		driver.close();
 	}
 
 }
